@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio — Seu Nome</title>
+  <meta name="description" content="Portfólio pessoal de Seu Nome — front-end developer & designer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">TS</div>
+        <div>
+          <div style="font-weight:700">Thamye Souza Correa</div>
+          <div style="font-size:13px;color:var(--muted)">Técnico em Desenvolvimento de Sistemas</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="intro">
+          <h1>Olá, eu sou Thamye😊</h1>
+          <p>Estou cursando Desenvolvimento de Sistema (Senai Jaguariúna)</p>
+          <p>
+            <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+            <a href="#contato" class="btn btn-outline">Contato</a>
+          </p>
+        </div>
+        <div class="avatar">
+          <img src="assets/avatar_portifolio.png" alt="Avatar" />
+        </div>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <div class="card">
+          <p>Tenho uma basica experiência em Desenvolver sistemas e mexer com linguagens de programação, pois ainda estou cursando o técnico mas sei o necessário para acompanhar o curso.</p>
+          <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Figma</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">AIOT</span>
+            <span class="skill">Power-Bi</span>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="projetos">
+  <h2>Projetos</h2>
+  <div class="projects">
+    <div class="project-card project-hover">
+      <img src="assets/projeto.png" alt="Projeto 1" class="project-img">
+      <h3>Padaria Paladar Nobre</h3>
+      <p>Um site que se preocupada com a praticidade e preza o conforto dos nossos cliente, podendo comprar pão fresquinho sem sair de casa com apenas alguns cliques.</p>
+      <a href="https://steffanygiovanna.github.io/Projeto-padaria-2025/web/Home.html" class="btn btn-outline">Ver mais</a>
+    </div>
+
+  </div>
+</section>
+
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <div class="contact-grid">
+          <form>
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="field">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+          <div>
+            <p>Email: <a href="mailto:seuemail@email.com">sthamyecorrea@email.com</a></p>
+            <p>GitHub: <a href="#">github.com/thamyeS</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="ano"></span> Thamye • Desenvolvedora Front-end
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
