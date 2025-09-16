@@ -98,14 +98,14 @@ header nav a {
 
 .btn-primary {
   background: #d6b1f5;
-  color: #b860f3;
+  color: #000000;
     border: 1px solid #9700fc;
 }
 
 .btn-outline {
   border: 1px solid #9700fc;
   background: #bd75e7;
-  color: #ffffff;
+  color: #000000;
 }
 
 
